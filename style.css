@@ -1,12 +1,16 @@
+body {
+    background-color: black;
+}
 /* Centralizando a Placa de musica que vai rolar */
 
 .container {
     display: flex;
-    justify-content: center;
     align-items: center;
     background-color: gray;
-    width: 100%;
+    width: 95.4%;
     height: 50%;
+    border-radius: 10px;
+    padding: 30px;
 }
 
 .music {
@@ -17,65 +21,34 @@
     border-radius: 15px;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding: 10px;
+    padding: 5px;
 }
 /*FIM*/
 
-/*Nome da música e album */
-.name-music {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    margin-bottom: 10px;
+/*Div de texto no lado da musica */
+
+.text-music {
+    background-color: white;
+    height: 50%;
+    width: 50%;
+    margin-left: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: gray;
+    padding: 15px;
+    border-radius: 20px;
+    transition: background-color 1s ease-in-out;
 }
 
-.name-album {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-}
+/*animação para fazer a div com que ela mude bem devagar */
 
-/* Botão de progresso */
-
-#progress {
-    width: 250px;
-}
-
-/*Controles da musica */
-
-.controls {
-    margin: 10px;
-}
-
-#prev {
-    margin-right: 20px;
-    font-size: x-large;
-}
-
-#play {
-    margin-right: 20px;
-    font-size: x-large
-}
-
-#next {
-    font-size: x-large;
-}
-
-
-@media (max-width: 450px) {
-    .music {
-        background-color: white;
-        width: 70%;
-        height: 90%;
-        border-radius: 15px;
-    }
-
-    .name-music {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 25px;
-        margin-bottom: 10px;
+@keyframes text-music {
+    0% {
+        background-color: gray;
+        color: black;
     }
     
-    .name-album {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
+    100% {
+        background-color: blueviolet;
+        color: white;
     }
 }
