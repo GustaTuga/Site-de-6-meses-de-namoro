@@ -4,5 +4,5 @@ O programa em questão tem como objetivo fazer o site para comemorar os 6 meses 
 ## Ferramentas
 HTML, CSS, JavaScript
 
-##Recursos
+## Recursos
 Música, Mensagem bonitinha...
