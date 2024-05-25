@@ -28,7 +28,6 @@ body {
 /*Div de texto no lado da musica */
 
 .text-music {
-    background-color: white;
     height: 50%;
     width: 50%;
     margin-left: 20px;
@@ -37,6 +36,12 @@ body {
     padding: 15px;
     border-radius: 20px;
     transition: background-color 1s ease-in-out;
+    color: gray;
+    cursor: pointer;
+}
+
+.text-music:hover {
+    animation: text-music 1s forwards;
 }
 
 /*animação para fazer a div com que ela mude bem devagar */
@@ -44,7 +49,7 @@ body {
 @keyframes text-music {
     0% {
         background-color: gray;
-        color: black;
+        color: gray;
     }
     
     100% {
@@ -52,3 +57,14 @@ body {
         color: white;
     }
 }
+
+.overlayDisplay {
+    color: white;
+    transition: opacity 1s ease-in-out;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+/* Tentar fazer a div overlay desaparecer com o mouse por cima dele */
