@@ -1,5 +1,5 @@
 ## Objetivo
-O programa em questão tem como objetivo fazer o site para comemorar os 6 meses de namoro. Tentei utilizar o JavaScript, mas como é visual, não foi necessário.
+O programa em questão tem como objetivo fazer o site para comemorar os 6 meses de namoro.
 
 ## Ferramentas
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
