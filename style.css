@@ -1,5 +1,41 @@
 body {
-    background-color: black;
+    background-color:blueviolet;
+}
+
+/* Div que contém o texto '6 meses' */
+
+.meses {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    background-image: url(https://st3.depositphotos.com/1137241/36810/i/450/depositphotos_368108772-stock-photo-fashion-aesthetics-flowers-purple-white.jpg);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    /*Letreiro onde vai mudar de cor '6 meses' */
+    animation: colorChange 1s infinite alternate;
+}
+
+/* Keyframes para fazer a animação para mudar de cor do letreiro */
+
+@keyframes colorChange {
+    0% {
+        color: white;
+    }
+    25% {
+        color: white;
+    }
+    50% {
+        color: white;
+    }
+    75% {
+        color: blueviolet;
+    }
+    100% {
+        color: blueviolet
+    }
 }
 /* Centralizando a Placa de musica que vai rolar */
 
@@ -11,6 +47,7 @@ body {
     height: 50%;
     border-radius: 10px;
     padding: 30px;
+    margin-bottom: 10px;
 }
 
 .music {
@@ -67,4 +104,11 @@ body {
     opacity: 0;
 }
 
-/* Tentar fazer a div overlay desaparecer com o mouse por cima dele */
+#image {
+    height: 400px;
+    width: 800px;
+    margin-left: 25%;
+    border-radius: 1000px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
